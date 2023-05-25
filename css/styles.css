@@ -767,9 +767,12 @@ body {
 .contact-form-checkbox:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon {
   opacity: 1;
 }
+.privacy-link {
+  color: var(--primary-color);
+}
 .contact-form-submit {
   display: block;
-  min-width: 160px;
+  min-width: 169px;
   margin-left: auto;
   margin-right: auto;
   padding: 16px 32px;
