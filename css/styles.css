@@ -758,8 +758,11 @@ body {
   cursor: pointer;
   margin-left: 8px;
 }
-.contact-form-checkbox:focus + .contact-form-own-checkbox {
-  outline: 2px solid rgba(0, 0, 255, 0.5);
+.contact-form-checkbox:focus + .checkbox-icon {
+  background-color: var(--accent-color);
+  border: none;
+  fill: var(--primary-text-color-theme-light);
+  border-color: var(--accent-color);
 }
 .contact-form-checkmark-icon {
   opacity: 0;
