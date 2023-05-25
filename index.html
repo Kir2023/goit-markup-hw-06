@@ -488,12 +488,15 @@
           <form class="email-form">
             <p class="social-media-text">Subscribe</p>
             <div class="subscribe-wrapper">
-            <input type="email" class="email-form-input" placeholder="E-mail" />
-            <button class="subscribe-button">Subscribe<svg class="subscribe-icon" width="24" height="20">
-            <use href="./images/icons.svg#icon-subscribe-icon"></use>
-          </svg></button>
+              <input type="email" class="email-form-input" placeholder="E-mail" />
+              <button class="subscribe-button">
+                Subscribe<svg class="subscribe-icon" width="24" height="20">
+                  <use href="./images/icons.svg#icon-subscribe-icon"></use>
+                </svg>
+              </button>
             </div>
           </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -503,8 +506,8 @@
             <use href="./images/icons.svg#icon-close-icon"></use>
           </svg>
         </button>
-          <form class="contact-form">
-            <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form class="contact-form">
+          <p class="modal-text">Leave your contacts and we will call you back</p>
           <label class="contact-form-field-wrapper">
             <span class="contact-form-field-desc">Name</span>
             <span class="contact-form-input-wrapper">
@@ -516,8 +519,8 @@
                 pattern="[a-zA-Zа-яА-ЯіІїЇґҐєЄʼ]+"
               />
               <svg class="contact-form-input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-person-icon"></use>
-          </svg>
+                <use href="./images/icons.svg#icon-person-icon"></use>
+              </svg>
             </span>
           </label>
           <label class="contact-form-field-wrapper">
@@ -532,22 +535,17 @@
                 title="xxx-xxx-xx-xx"
               />
               <svg class="contact-form-input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-phone-icon"></use>
-          </svg>
+                <use href="./images/icons.svg#icon-phone-icon"></use>
+              </svg>
             </span>
           </label>
           <label class="contact-form-field-wrapper">
             <span class="contact-form-field-desc">Email</span>
             <span class="contact-form-input-wrapper">
-              <input
-                class="contact-form-input"
-                type="email"
-                name="user_email"
-                required
-              />
+              <input class="contact-form-input" type="email" name="user_email" required />
               <svg class="contact-form-input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-email-icon"></use>
-          </svg>
+                <use href="./images/icons.svg#icon-email-icon"></use>
+              </svg>
             </span>
           </label>
           <label class="contact-form-field-wrapper">
@@ -567,7 +565,6 @@
                 href="./images/icons.svg#icon-check-icon"
               ></use>
             </svg>
-            
           </label>
           <button type="submit" class="contact-form-submit">Send</button>
         </form>
