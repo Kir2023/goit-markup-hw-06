@@ -732,7 +732,7 @@ body {
   margin-bottom: 24px;
 }
 .checkbox-wrapper-text {
-  font-style: 12px;
+  font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--link-customer-color);
