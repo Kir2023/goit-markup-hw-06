@@ -752,23 +752,13 @@ body {
   position: absolute;
 }
 .contact-form-own-checkbox {
-  padding: 3px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  cursor: pointer;
-  margin-left: 8px;
+  fill: var(--secondary-text-color-theme-light);
 }
-.contact-form-checkbox:focus + .checkbox-icon {
+.contact-form-checkbox:checked + .checkbox-wrapper-text .checkbox-icon {
   background-color: var(--accent-color);
   border: none;
   fill: var(--primary-text-color-theme-light);
   border-color: var(--accent-color);
-}
-.contact-form-checkmark-icon {
-  opacity: 0;
-}
-.contact-form-checkbox:checked + .contact-form-own-checkbox > .contact-form-checkmark-icon {
-  opacity: 1;
 }
 .privacy-link {
   color: var(--primary-color);
